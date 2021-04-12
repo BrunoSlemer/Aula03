@@ -2,14 +2,14 @@
 public class Veiculo {
 
     String modelo, marca;
-    String consumo;
+    double consumo;
 
     void dadosdocarro(){
         System.out.println("O Modelo do carro é " + modelo);
         System.out.println("A Marca do carro é " + marca);
     }
 
-    String ObterConsumo(){
+    double ObterConsumo(){
         return consumo;
     }
     
