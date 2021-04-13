@@ -5,12 +5,11 @@ public class Placar {
     int gols1, gols2;
 
     public Placar(){
-        time1 = "time da casa";
-        time2 = "time visitante";
+        this("time da casa", "time visitante", 0, 0);
+
     }
     public Placar(String time1, String time2){
-        this.time1 = time1;
-        this.time2 = time2;
+        this(time1, time2, 0, 0);
 
     }
     public Placar(String time1 ,String time2, int gols1, int gols2){
