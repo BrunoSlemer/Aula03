@@ -7,8 +7,9 @@ public class AppPlacar {
 
         Placar p3 = new Placar ();
         
-        p1.exibir();
-        p2.exibir();
-        p3.exibir();
+        System.out.println( p1.exibir());
+        System.out.println( p2.exibir());
+        System.out.println( p3.exibir());
+        
     }
 }

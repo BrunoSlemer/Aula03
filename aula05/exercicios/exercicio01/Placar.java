@@ -5,7 +5,7 @@ public class Placar {
     int gols1, gols2;
 
     public Placar(){
-        this("time da casa", "time visitante", 0, 0);
+        this("time da casa", "time visitante", 0, 0);//chamada ao contrutor
 
     }
     public Placar(String time1, String time2){
@@ -19,7 +19,7 @@ public class Placar {
         this.gols2 = gols2;
 
     }
-    public void exibir(){
-        System.out.println(time1 + " " + gols1 + " X " + gols2 + " " + time2);
+    public String exibir(){
+        return(time1 + " " + gols1 + " X " + gols2 + " " + time2);
     }
 }
