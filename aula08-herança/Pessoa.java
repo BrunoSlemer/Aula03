@@ -1,6 +1,6 @@
 
 
-public class Pessoa /*extends Object*/ {
+public abstract class Pessoa /*extends Object*/ { //abstract nao pode gerar objetos
     private String nome, telefone;
     
     //public Pessoa(){}

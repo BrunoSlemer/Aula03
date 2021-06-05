@@ -8,6 +8,7 @@ public class App {
         //System.out.println(e.toString());
         //System.out.println(e.exibir());
         Pessoa pessoa;
+
         pessoa = professor;
 
         System.out.println(pessoa.exibir());// Polimorfismo
